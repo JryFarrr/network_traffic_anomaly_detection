@@ -1,0 +1,45 @@
+{
+  "project": "Embedded System Network Security - Binary Classification",
+  "approach": "Multi-Paradigm Innovative ML/DL",
+  "models": {
+    "supervised": [
+      "Stacking Ensemble"
+    ],
+    "unsupervised": [
+      "Isolation Forest",
+      "One-Class SVM",
+      "LOF"
+    ],
+    "deep_learning": [
+      "AutoEncoder"
+    ],
+    "hybrid": [
+      "Weighted Ensemble"
+    ]
+  },
+  "best_model": {
+    "name": "Hybrid (Weighted Ensemble)",
+    "f1_score": 0.25,
+    "roc_auc": 0.5941666666666666,
+    "mcc": 0.1605144707810256
+  },
+  "features": {
+    "original": 17,
+    "engineered": 28,
+    "top_features": [
+      "src_ip_192.168.1.2",
+      "burst_indicator",
+      "packet_size",
+      "port_range",
+      "low_entropy_high_energy"
+    ]
+  },
+  "innovative_aspects": [
+    "Multi-paradigm approach (Supervised + Unsupervised + Deep Learning)",
+    "Semi-supervised training for anomaly detection",
+    "Meta-learning with Stacking Ensemble",
+    "AutoEncoder-based reconstruction anomaly detection",
+    "Hybrid weighted ensemble combining all paradigms",
+    "Feature sensitivity analysis for AutoEncoder"
+  ]
+}

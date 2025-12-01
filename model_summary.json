@@ -1,0 +1,40 @@
+{
+  "model": "CatBoost (Tuned)",
+  "cv_f1_score": 0.2,
+  "cv_roc_auc": 0.54,
+  "optimal_threshold": 0.2,
+  "features": [
+    "packet_size",
+    "inter_arrival_time",
+    "src_port",
+    "dst_port",
+    "packet_count_5s",
+    "mean_packet_size",
+    "spectral_entropy",
+    "frequency_band_energy",
+    "protocol_type_TCP",
+    "protocol_type_UDP",
+    "src_ip_192.168.1.2",
+    "src_ip_192.168.1.3",
+    "dst_ip_192.168.1.5",
+    "dst_ip_192.168.1.6",
+    "tcp_flags_FIN",
+    "tcp_flags_SYN",
+    "tcp_flags_SYN-ACK",
+    "traffic_intensity",
+    "packet_rate",
+    "entropy_energy_ratio",
+    "is_common_port",
+    "port_range",
+    "syn_without_ack",
+    "fin_flag_count",
+    "burst_indicator",
+    "low_entropy_high_energy",
+    "small_packet",
+    "large_packet"
+  ],
+  "class_mapping": {
+    "0": "Normal",
+    "1": "Malicious"
+  }
+}
