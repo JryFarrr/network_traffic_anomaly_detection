@@ -307,14 +307,8 @@ tubes_eas_sains_data/
 ## 👤 Author
 
 **Network Traffic Anomaly Detection Project**  
-Tugas Besar - Sains Data  
+Jiryan Farokhi 
 2025
-
----
-
-## 📄 License
-
-This project is for educational purposes.
 
 ---
 
